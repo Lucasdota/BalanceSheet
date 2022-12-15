@@ -26,11 +26,12 @@ h2{
 
 table{
     width:95%;
-    border-collapse: collapse;
+    border-collapse: collapse;/*to transform background colors into one line across the entire width*/
     margin:auto;
     font-size:1.1em;
 }
 
+/*sticky header*/
 #years{
   display: flex;
   justify-content: flex-end;
@@ -45,11 +46,12 @@ table{
 
 #years span[class] {
     font-weight: bold;
-    width: calc(100% - 35.3rem);
+    width: calc(100% - 35.3rem);/*to align with the table's tds*/
     min-width: 4.5rem;
     text-align: right;
   }
 
+/*invisible text, only screen readers will read it*/
 .sr-only{
   border: 0 !important;
   clip: rect(1px, 1px, 1px, 1px) !important;
@@ -92,6 +94,7 @@ tr.total {
     padding:15px 0 15px 0;
 }
 
+/*to put it under the th, transformed into block*/
 .description{  
   display: block;
   font-weight: normal;
