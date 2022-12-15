@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="description" content="A balance sheet describing a company's assets">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="images/letter.png">
+        <title>Balance Sheet | Monsters Inc detailed balance history</title>           
+    </head>
+    <body>
+        <div class="sheet">
+            <header>
+                <h1>Balance Sheet</h1>
+                <h2>Monsters Inc</h2>
+            </header> 
+            <div id="years" aria-hidden="true">
+                <span class="year">2019</span>
+                <span class="year">2020</span>
+                <span class="year">2021</span>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            <td class="sr-only">2020</td>
+                            <td class="sr-only">2021</td>
+                            <td class="sr-only">2022</td>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="blue-title">Assets</th>
+                    </tr>
+                    <tr>
+                        <th class="gray">Cash<span class="description">This is the cash we currently have on hand.</span></th>
+                        <td class="gray">$25</td>
+                        <td class="gray">$30</td>
+                        <td class="current gray">$28</td>
+                    </tr>
+                    <tr class="gray">
+                        <th>Checking<span class="description">Our primary transactional account.</span></th>
+                        <td>$54</td>
+                        <td>$56</td>
+                        <td class="current">$53</td>
+                    </tr>
+                    <tr class="gray">
+                        <th>Savings<span class="description">Funds set aside for emergencies.</span></th>
+                        <td>$500</td>
+                        <td>$650</td>
+                        <td class="current">$728</td>
+                    </tr>
+                    <tr class="total bold">
+                        <th>Total</th>
+                        <td>$579</td>
+                        <td>$736</td>
+                        <td class="current">$809</td>
+                    </tr>   
+                    <tr>
+                        <th class="blue-title">Liabilities</th>                       
+                    </tr>
+                    <tr class="gray">
+                        <th>Loans<span class="description">The outstanding balance on our startup loan.</span></th>
+                        <td>$500</td>
+                        <td>$250</td>
+                        <td class="current">$0</td>
+                    </tr>
+                    <tr class="gray">
+                        <th>Expenses<span class="description">Annual anticipated expenses, such as payroll.</span></th>
+                        <td>$200</td>
+                        <td>$300</td>
+                        <td class="current">$400</td>
+                    </tr>
+                    <tr class="gray">
+                        <th>Credit<span class="description">The outstanding balance on our credit card.</span></th>
+                        <td>$50</td>
+                        <td>$50</td>
+                        <td class="current">$75</td>
+                    </tr>    
+                    <tr class="total bold">
+                        <th>Total</th>
+                        <td>$750</td>
+                        <td>$600</td>
+                        <td class="current">$475</td>
+                    </tr>                    
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th class="blue-title">Net Worth</th>
+                    </tr>
+                    <tr class="total bold">
+                        <th>Total</th>
+                        <td>$-171</td>
+                        <td>$136</td>
+                        <td class="current">$334</td>
+                    </tr>
+                </tfoot>
+            </table>          
+        </div>
+    </body>
+</html>
